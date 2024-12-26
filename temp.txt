@@ -1,0 +1,17 @@
+18793:12-25 07:11:28.069  1296  1484 W CHIUSECASE: [WARN   ] chxusecaseutils.cpp:2157 GetVariantGroup() No VariantGroup VIULLPLUS exists [Error Code: 6]
+18794:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chxusecaseutils.cpp:2616 IsValidPipelineDescriptor() MultiCameraSATWithBoe] Node: 65538 0 has an invalid output configuration(0x0): Num: 0
+18795:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chifeature2base.cpp:6072 PruneUsecaseDescriptor() MultiCameraReprocessRealtime:0 failed while pruning usecase: UsecaseZSL @ pipeline MultiCameraSATWithBoe with code: CDKResultEInvalidArg
+18796:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chifeature2base.cpp:6384 PrepareFeatureData() Error pruning usecase: UsecaseZSL
+18797:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chifeature2featurepool.cpp:1130 FinalizeFeatureInstances() Backward walk failed[5] at: MultiCameraReprocessRealtime
+18798:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chifeature2graphmanager.cpp:429 Initialize() Error: 5
+18799:12-25 07:11:28.069  1296  1484 E CHIUSECASE: [ERROR  ] chifeature2graphmanager.cpp:42 Create() Feature graph manager initialization failed
+18802:12-25 07:11:28.075  1296  1484 E CHIUSECASE: [ERROR  ] chxmulticamerabase.cpp:1242 CreateFeatureGraphManager() Failed to allocate graph manager
+18803:12-25 07:11:28.075  1296  1484 E CHIUSECASE: [ERROR  ] chxmulticamerabase.cpp:921 Initialize() Failed to initialize Multicamera Usecase: 8
+18804:12-25 07:11:28.075  1296  1484 E CHIUSECASE: [ERROR  ] chxmulticamerabase.cpp:98 Create() Failed to Initialize MulticameraUsecase
+18805:12-25 07:11:28.075  1296  1484 I CHIUSECASE: [CORE_CFG ] chxusecase.cpp:2768 Flush() [UnknownUsecase] Flush start
+18806:12-25 07:11:28.075  1296  1484 I CHIUSECASE: [CORE_CFG ] chxusecase.cpp:2818 Flush() [UnknownUsecase] Flush End
+18807:12-25 07:11:28.076  1296  1484 E CHIUSECASE: [ERROR  ] chxextensionmodule.cpp:6492 InitializeOverrideSession() For cameraId = 4 CreateUsecaseObject failed
+18808:12-25 07:11:28.076  1296  1484 W CHIUSECASE: [WARN   ] chxextensionmodule.cpp:6583 InitializeOverrideSession() Stream Buffer Manager is disabled or not supported
+18809:12-25 07:11:28.076  1296  1484 I CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+18810:12-25 07:11:28.076  1296  1484 I CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+
